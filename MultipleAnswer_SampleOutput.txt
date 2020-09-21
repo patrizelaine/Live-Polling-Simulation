@@ -1,0 +1,29 @@
+Please select a poll type
+Enter '1' for single-answer questions or '2' for multi-answer questions.
+2
+
+What are your favorite ice cream flavors?
+Student ID: 100 | Answer: [Strawberry, Chocolate, Cookie Dough, Vanilla, Cheesecake]
+Student ID: 101 | Answer: [Strawberry, Cookie Dough, Vanilla, Chocolate, Cheesecake]
+Student ID: 102 | Answer: [Cookie Dough, Strawberry, Vanilla]
+Student ID: 103 | Answer: [Cheesecake, Chocolate]
+Student ID: 104 | Answer: [Vanilla, Cheesecake, Strawberry, Chocolate]
+Student ID: 105 | Answer: [Cheesecake, Cookie Dough]
+Student ID: 106 | Answer: [Cookie Dough]
+Student ID: 107 | Answer: [Cheesecake, Vanilla, Chocolate, Strawberry, Cookie Dough]
+Student ID: 108 | Answer: [Vanilla, Cookie Dough, Cheesecake, Chocolate]
+Student ID: 109 | Answer: [Chocolate, Vanilla]
+Resubmission -- Student ID: 105 | Answer: [Strawberry]
+Resubmission -- Student ID: 100 | Answer: [Strawberry, Cookie Dough, Vanilla]
+Resubmission -- Student ID: 101 | Answer: [Strawberry, Chocolate, Vanilla]
+Resubmission -- Student ID: 108 | Answer: [Cheesecake, Cookie Dough]
+Resubmission -- Student ID: 104 | Answer: [Strawberry, Chocolate, Vanilla, Cheesecake]
+Resubmission -- Student ID: 103 | Answer: [Strawberry, Cheesecake, Chocolate, Cookie Dough, Vanilla]
+Resubmission -- Student ID: 106 | Answer: [Strawberry, Cookie Dough, Vanilla, Cheesecake]
+
+Poll Results
+Chocolate: 5
+Vanilla: 8
+Strawberry: 8
+Cookie Dough: 6
+Cheesecake: 5
