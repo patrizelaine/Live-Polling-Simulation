@@ -18,6 +18,8 @@ public class VotingService {
 	// Loops through the students to submit answers to the poll
 	public void generateStudentResponses(Student[] students, int numPollers, Question q)
 	{
+		System.out.println("INDIVIDUAL STUDENT RESPONSES");
+		
 		// Results of initial submission
 		for(int i=0; i<numPollers; i++)
 		{
@@ -88,7 +90,7 @@ public class VotingService {
 	// Displays results of SAQ poll
 	public void displaySaqResults()
 	{
-		System.out.println("\nPoll Results");
+		System.out.println("\nPOLL RESULTS");
 		System.out.println("Yes: " + y);
 		System.out.println("No: " + n);
 	}
@@ -96,7 +98,7 @@ public class VotingService {
 	// Displays results of MAQ poll
 	public void displayMaqResults()
 	{
-		System.out.println("\nPoll Results");
+		System.out.println("\nPOLL RESULTS");
 		System.out.println("Chocolate: " + a);
 		System.out.println("Vanilla: " + b);
 		System.out.println("Strawberry: " + c);
