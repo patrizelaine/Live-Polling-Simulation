@@ -1,29 +1,29 @@
-Please select a poll type
-Enter '1' for single-answer questions or '2' for multi-answer questions.
-2
+MULTIPLE ANSWER QUESTION: What are your favorite ice cream flavors?
 
-What are your favorite ice cream flavors?
-Student ID: 100 | Answer: [Strawberry, Chocolate, Cookie Dough, Vanilla, Cheesecake]
-Student ID: 101 | Answer: [Strawberry, Cookie Dough, Vanilla, Chocolate, Cheesecake]
-Student ID: 102 | Answer: [Cookie Dough, Strawberry, Vanilla]
-Student ID: 103 | Answer: [Cheesecake, Chocolate]
-Student ID: 104 | Answer: [Vanilla, Cheesecake, Strawberry, Chocolate]
-Student ID: 105 | Answer: [Cheesecake, Cookie Dough]
-Student ID: 106 | Answer: [Cookie Dough]
-Student ID: 107 | Answer: [Cheesecake, Vanilla, Chocolate, Strawberry, Cookie Dough]
-Student ID: 108 | Answer: [Vanilla, Cookie Dough, Cheesecake, Chocolate]
-Student ID: 109 | Answer: [Chocolate, Vanilla]
-Resubmission -- Student ID: 105 | Answer: [Strawberry]
-Resubmission -- Student ID: 100 | Answer: [Strawberry, Cookie Dough, Vanilla]
-Resubmission -- Student ID: 101 | Answer: [Strawberry, Chocolate, Vanilla]
-Resubmission -- Student ID: 108 | Answer: [Cheesecake, Cookie Dough]
-Resubmission -- Student ID: 104 | Answer: [Strawberry, Chocolate, Vanilla, Cheesecake]
-Resubmission -- Student ID: 103 | Answer: [Strawberry, Cheesecake, Chocolate, Cookie Dough, Vanilla]
-Resubmission -- Student ID: 106 | Answer: [Strawberry, Cookie Dough, Vanilla, Cheesecake]
+INDIVIDUAL STUDENT RESPONSES
+Student ID: 100 | Answer: [Strawberry, Chocolate]
+Student ID: 101 | Answer: [Vanilla, Cheesecake, Cookie Dough, Chocolate]
+Student ID: 102 | Answer: [Cookie Dough, Chocolate]
+Student ID: 103 | Answer: [Vanilla, Cookie Dough, Strawberry, Chocolate]
+Student ID: 104 | Answer: [Strawberry, Vanilla, Chocolate]
+Student ID: 105 | Answer: [Chocolate, Cookie Dough, Strawberry, Cheesecake, Vanilla]
+Student ID: 106 | Answer: [Cheesecake, Chocolate, Strawberry, Vanilla, Cookie Dough]
+Student ID: 107 | Answer: [Cheesecake, Chocolate, Cookie Dough]
+Student ID: 108 | Answer: [Chocolate, Cookie Dough, Strawberry, Cheesecake]
+Student ID: 109 | Answer: [Cookie Dough, Vanilla, Chocolate]
+Resubmission -- Student ID: 103 | Answer: [Vanilla, Strawberry, Cookie Dough]
+Resubmission -- Student ID: 107 | Answer: [Chocolate, Vanilla]
+Resubmission -- Student ID: 102 | Answer: [Cheesecake, Strawberry, Cookie Dough, Chocolate]
+Resubmission -- Student ID: 102 | Answer: [Chocolate, Cookie Dough, Strawberry, Vanilla, Cheesecake]
+Resubmission -- Student ID: 108 | Answer: [Cheesecake]
+Resubmission -- Student ID: 101 | Answer: [Strawberry, Chocolate, Vanilla, Cookie Dough, Cheesecake]
+Resubmission -- Student ID: 107 | Answer: [Strawberry, Cheesecake]
+Resubmission -- Student ID: 104 | Answer: [Strawberry, Cookie Dough, Cheesecake, Chocolate, Vanilla]
+Resubmission -- Student ID: 104 | Answer: [Cookie Dough, Cheesecake]
 
-Poll Results
-Chocolate: 5
-Vanilla: 8
-Strawberry: 8
-Cookie Dough: 6
-Cheesecake: 5
+POLL RESULTS
+Chocolate: 6
+Vanilla: 6
+Strawberry: 7
+Cookie Dough: 7
+Cheesecake: 7

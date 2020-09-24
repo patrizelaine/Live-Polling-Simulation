@@ -1,25 +1,21 @@
-Please select a poll type
-Enter '1' for single-answer questions or '2' for multi-answer questions.
-1
+SINGLE ANSWER QUESTION: Are you a Computer Science major?
 
-Are you a Computer Science major?
+INDIVIDUAL STUDENT RESPONSES
 Student ID: 100 | Answer: [No]
 Student ID: 101 | Answer: [No]
 Student ID: 102 | Answer: [Yes]
-Student ID: 103 | Answer: [No]
-Student ID: 104 | Answer: [Yes]
-Student ID: 105 | Answer: [No]
+Student ID: 103 | Answer: [Yes]
+Student ID: 104 | Answer: [No]
+Student ID: 105 | Answer: [Yes]
 Student ID: 106 | Answer: [Yes]
-Student ID: 107 | Answer: [No]
-Student ID: 108 | Answer: [No]
+Student ID: 107 | Answer: [Yes]
+Student ID: 108 | Answer: [Yes]
 Student ID: 109 | Answer: [Yes]
-Resubmission -- Student ID: 103 | Answer: [Yes]
-Resubmission -- Student ID: 106 | Answer: [No]
-Resubmission -- Student ID: 103 | Answer: [Yes]
-Resubmission -- Student ID: 104 | Answer: [No]
-Resubmission -- Student ID: 100 | Answer: [Yes]
-Resubmission -- Student ID: 106 | Answer: [No]
+Resubmission -- Student ID: 107 | Answer: [Yes]
+Resubmission -- Student ID: 106 | Answer: [Yes]
+Resubmission -- Student ID: 101 | Answer: [Yes]
+Resubmission -- Student ID: 107 | Answer: [Yes]
 
-Poll Results
-Yes: 4
-No: 6
+POLL RESULTS
+Yes: 8
+No: 2
