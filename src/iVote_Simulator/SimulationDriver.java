@@ -7,7 +7,6 @@ package iVote_Simulator;
  * Driver class to trigger the Vote Simulation
  */
 
-import java.util.Scanner;
 
 public class SimulationDriver {
 	
@@ -62,28 +61,19 @@ public class SimulationDriver {
 	// Asks host for type of poll question and generates the Student responses
 	public static void acceptStudentResponses(VotingService vs)
 	{
-		
-		Scanner scan = new Scanner(System.in);
-		
-		do
-		{
-			System.out.println("Please select a poll type\nEnter '1' for single-answer questions or '2' for multi-answer questions.");
-			questionType = scan.nextInt();
-			
-			if(questionType == 1)	// Single answer questions
-			{			
-				System.out.println("\n" + saQuestion.getQuestion()); 
-				vs.generateStudentResponses(students, NUM_POLLERS, saQuestion);		// Polls SAQ question against Students
-			}
+		questionType = (int)(Math.random() * (2) + 1);		// Randomly chooses a question type 1 (SAQ) or type 2 (MAQ)
+
+		if(questionType == 1)	// Single answer questions
+		{			
+			System.out.println("SINGLE ANSWER QUESTION: " + saQuestion.getQuestion() + "\n"); 
+			vs.generateStudentResponses(students, NUM_POLLERS, saQuestion);		// Polls SAQ question against Students
+		}
 					
-			if(questionType == 2)	// Multiple answer questions
-			{	
-				System.out.println("\n" + maQuestion.getQuestion());
-				vs.generateStudentResponses(students, NUM_POLLERS, maQuestion);		// Polls MAQ question against Students
-			}
-		} while(!(questionType==1) && !(questionType==2));							// Ensures there is no invalid user input
-				
-		scan.close();
+		if(questionType == 2)	// Multiple answer questions
+		{	
+			System.out.println("MULTIPLE ANSWER QUESTION: " + maQuestion.getQuestion() + "\n");
+			vs.generateStudentResponses(students, NUM_POLLERS, maQuestion);		// Polls MAQ question against Students
+		}
 	}
 	
 	public static void displayStudentResponses(VotingService vs)
