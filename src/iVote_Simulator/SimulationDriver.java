@@ -10,9 +10,9 @@ package iVote_Simulator;
 
 public class SimulationDriver {
 	
-	private final static int NUM_POLLERS = 10;							// Number of Students
-	private static Student[] students = new Student[NUM_POLLERS];		// Array of Students being polled
-	private static Question saQuestion, maQuestion;						// SAQ and MAQ poll question
+	private final static int NUM_POLLERS = (int)(Math.random() * (50) + 10);	// Randomly generates number of 10 to 50 students
+	private static Student[] students = new Student[NUM_POLLERS];				// Array of Students being polled
+	private static Question saQuestion, maQuestion;								// SAQ and MAQ poll question
 	private static int questionType;			
 	
 	public static void main(String[] args)
